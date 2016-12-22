@@ -8,7 +8,7 @@ var Main = React.createClass({
                     <div>
                       
                       <NavBar/>
-                      <h2> Main Component</h2>
+                      <h2> Main.jsx</h2>
 
                       {this.props.children}
                     </div>

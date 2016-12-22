@@ -11,7 +11,7 @@ var NavBar = React.createClass({
                         <ul className="menu">
                             <li className="menu-text">React Timer App
                                 <li> <IndexLink  activeClassName= "active" activeStyle = {{fontWeight: 'bold'}} to = '/'> Timer </IndexLink> </li>
-                                <li> <Link  activeClassName= "active" activeStyle = {{fontWeight: 'bold'}} to = '/'> Countdown </Link> </li>
+                                <li> <Link  activeClassName= "active" activeStyle = {{fontWeight: 'bold'}} to = '/countdown'> Countdown </Link> </li>
                             </li>
                         </ul>
                     </div>
