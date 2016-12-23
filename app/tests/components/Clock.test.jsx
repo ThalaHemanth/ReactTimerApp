@@ -2,7 +2,6 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var expect = require('expect');
 var $ = require('jQuery');
-
 var TestUtils = require('react-addons-test-utils');
 
 var Clock = require('Clock');
@@ -16,7 +15,7 @@ describe('Clock', ()=> {
       it('should render clock component',()=>{
         var clock = TestUtils.renderIntoDocument(<Clock totalSeconds = {90}/>);
         var $el = $(ReactDOM.findDOMNode(clock));
-        var actualText = $el.find('.clock-test').text();
+        var actualText = $el.find('.clock-text').text();
         expect(actualText).toBe('01:30');
       });
     });

@@ -12,7 +12,7 @@ var Countdown = require('Countdown');
 require('style!css!foundation-sites/dist/css/foundation.min.css')
 
 $(document).foundation();
-
+// Loading Css
 require('style!css!sass!applicationStyles')
 
 ReactDOM.render(

@@ -5,14 +5,13 @@ var Main = React.createClass({
     render: function() {
         return (
                 <div>
-                    <div>
-                      
-                      <NavBar/>
-                      <h2> Main.jsx</h2>
-
-                      {this.props.children}
-                    </div>
+                    <NavBar/>
+                  <div className="row">
+                      <div className="column small-centered medium-6 large-4">
+                        {this.props.children}
+                      </div>
                   </div>
+                </div>
 
               );
     }
